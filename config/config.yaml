@@ -1,0 +1,10 @@
+---
+config_cleaning:
+  FILL_MISSING: 'True'
+  FILLING_METHOD: interpolate
+  FILLING_STRATEGY: polynomial
+  OUTLIER_DETECTION: 'True'
+  OUTLIER_CLEANING: 'True'
+  OUTLIER_DETECTION_METHOD: zscore
+dataset_params:
+  path: "./test5.csv"
